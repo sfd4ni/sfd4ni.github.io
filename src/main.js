@@ -32,7 +32,7 @@ const albumNames = ["In a Tidal Wave of Mystery", "NameLater", "Sahelanthropus",
 // Array to store slide data (just using placeholder images for this example)
 const slideData = Array.from({ length: totalSlides }, (_, i) => ({
   id: i,
-  imageOgUrl: imagenesOG[i],
+  imageOgUrl: imagenesOg[i],
   imageUrl: imagenes[i],
   youtubeUrl: videos[i],
   originalArtistText: `> Original artist: ${artistas[i]}`,
