@@ -13,7 +13,7 @@ const videos = ["https://www.youtube.com/embed/WEC52d9dpBQ?si=QR-F9syuvd7FHDQ_",
 const imagenes = ["safe_and_sound.png", "fix_you.png", "sunday_morning.jpg", "linger.png", "duvet.png", "dango_daikazoku.png", "theylongtobe.png",
   "snake_eater.png", "yellow.png", "do_you_think_im_sexy.jpg", "something_stupid.png", "iris.png", "wake_me_up.jpg", "viva_la_vida.jpg", "alright.png",
   "you_are_gonna_go_far_kid.png"];
-  const imagenesog = ["safe_and_sound_og.jpg", "fix_you_og.jpg", "sunday_morning_og.jpg", "linger_og.jpg", "duvet_og.jpg", "dango_daikazoku_og.jpg", "they_long_to_be_og.jpg",
+  const imagenesOg = ["safe_and_sound_og.jpg", "fix_you_og.jpg", "sunday_morning_og.jpg", "linger_og.jpg", "duvet_og.jpg", "dango_daikazoku_og.jpg", "they_long_to_be_og.jpg",
     "snake_eater_og.jpg", "yellow_og.jpg", "do_you_think_im_sexy_og.jpg", "something_stupid_og.jpeg", "iris_og.jpg", "wake_me_up_og.jpg", "viva_la_vida_og.jpg", "alright_og.jpg",
     "you_are_gonna_go_far_kid_og.jpg"];
 const artistas = ["NameLater", "NameLater", "Sahelanthropus", "Ryoshi", "Gestalt", "NameLater", "Ryoshi",
