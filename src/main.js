@@ -55,7 +55,7 @@ function createCarouselItems() {
     bgSlide.classList.add('bg-slide');
     const slide = document.createElement('div');
     slide.classList.add('carousel-item');
-    //slide.style.backgroundImage = `url(../resources/${item.imageUrl})`;
+    //slide.style.backgroundImage = `url(./resources/${item.imageUrl})`;
     
     
     
@@ -70,8 +70,8 @@ function createCarouselItems() {
     //const bgSlide = document.createElement('div');
     //contentSlide.classList.add('bg-slide');
     if (typeof item.imageUrl !== 'undefined') {  
-      imageText.src = `../resources/${item.imageUrl}`;
-      slide.style=`background-image: url('../resources/${item.imageUrl}')`;
+      imageText.src = `./resources/${item.imageUrl}`;
+      slide.style=`background-image: url('./resources/${item.imageUrl}')`;
     }
 
     const textPoko = document.createElement('div');
@@ -101,7 +101,7 @@ function createCarouselItems() {
 
     const image = document.createElement('img');
     if (typeof item.imageOgUrl !== 'undefined') {  
-      image.src = `../resources/${item.imageOgUrl}`;
+      image.src = `./resources/${item.imageOgUrl}`;
     }
     
     const textOriginal = document.createElement('div');
@@ -158,7 +158,7 @@ function createNavBar() {
 
     const thumbnail = document.createElement('img');
     if (typeof item.imageUrl !== 'undefined') {  
-      thumbnail.src = `../resources/${item.imageOgUrl}`;
+      thumbnail.src = `./resources/${item.imageOgUrl}`;
     }
     thumbnail.alt = `Thumbnail ${index + 1}`;
     navItem.appendChild(thumbnail);
