@@ -1,5 +1,5 @@
 // Number of slides (You can change this to 50 or any other number)
-const totalSlides = 20;
+const totalSlides = 30;
 
 const videos = ["https://www.youtube.com/embed/WEC52d9dpBQ?si=QR-F9syuvd7FHDQ_", "https://www.youtube.com/embed/wbTrL_ME7-k?si=idJ74ZuMMHxR0hky",
   "https://www.youtube.com/embed/-dsJjxjEyfo?si=CYhaAb7Nvj8sXIGb", "https://www.youtube.com/embed/kG_Dxawxmxk?si=UCjdyA-AhRoWEEa4",
@@ -8,26 +8,37 @@ const videos = ["https://www.youtube.com/embed/WEC52d9dpBQ?si=QR-F9syuvd7FHDQ_",
   "https://www.youtube.com/embed/nSIQYriIkEU?si=uhE0WEFpSim556jk", "https://www.youtube.com/embed/k4l6636sPzU?si=JkJ86bw3CvCZ4s_B",
   "https://www.youtube.com/embed/KDK3i6xyno0?si=qge6j4VLOt9ebYLA", "https://www.youtube.com/embed/XyODSqOUeC8?si=QuOZX_-k02ZRmR8e",
   "https://www.youtube.com/embed/CIZD8etf51U?si=cESEj0R5lIG_noiO", "https://www.youtube.com/embed/lOlRVvXMmfY?si=XinHgodQTqnP_lYS",
-  "https://www.youtube.com/embed/o8PdBKNr62A?si=mFjOuuZlMaSx4_Et", "https://www.youtube.com/embed/QUKXHH30JQs?si=ulxtRLrM9oOS0Eic"
+  "https://www.youtube.com/embed/ZW73eFqXa9Q?si=4hOsORcV0bkVaz4T", "https://www.youtube.com/embed/QUKXHH30JQs?si=ulxtRLrM9oOS0Eic"
 ]
 const imagenes = ["safe_and_sound.png", "fix_you.png", "sunday_morning.jpg", "linger.png", "duvet.png", "dango_daikazoku.png", "they_long_to_be.png",
   "snake_eater.png", "yellow.png", "do_you_think_im_sexy.jpg", "something_stupid.png", "iris.png", "wake_me_up.jpg", "viva_la_vida.jpg", "alright.png",
-  "you_are_gonna_go_far_kid.png"];
+  "you_are_gonna_go_far_kid.png", "505.png", "bakamitai.png", "counting_stars.png", "creep.png", "feel_good.jpg", "renai_circulation.png", "stay_with_me.png",
+  "stereo_hearts.png", "your_graduation.png", "telephone_number.png", "california_girls.png", "dancing_queen.png", "lovefool.png" ];
+
   const imagenesOg = ["safe_and_sound_og.jpg", "fix_you_og.jpg", "sunday_morning_og.jpg", "linger_og.jpg", "duvet_og.jpg", "dango_daikazoku_og.jpg", "they_long_to_be_og.jpg",
     "snake_eater_og.jpg", "yellow_og.jpg", "do_you_think_im_sexy_og.jpg", "something_stupid_og.jpeg", "iris_og.jpg", "wake_me_up_og.jpg", "viva_la_vida_og.jpg", "alright_og.jpg",
-    "you_are_gonna_go_far_kid_og.jpg"];
+    "you_are_gonna_go_far_kid_og.jpg", "505.png", "bakamitai_og.png", "counting_stars_og.jpg", "creep_og.jpg", "feel_good_og.jpg", "renai_circulation_og.jpg", "stay_with_me_og.jpg",
+  "stereo_hearts_og.jpg", "your_graduation_og.jpg", "telephone_number_og.jpg", "california_girls_og.png", "dancing_queen_og.jpg", "lovefool_og.jpg"];
+
 const artistas = ["NameLater", "NameLater", "Sahelanthropus", "Ryoshi", "Gestalt", "NameLater", "Ryoshi",
   "NameLater", "Nini IV", "Sahelanthropus", "Ryoshi", "NameLater", "Arteries", "Sahelanthropus", "Nini IV",
-  "NameLater"];
-const songTitles = ["Safe and Sound", "NameLater", "Sahelanthropus", "Ryoshi", "Gestalt", "NameLater", "Ryoshi",
-    "NameLater", "Nini IV", "Sahelanthropus", "Ryoshi", "NameLater", "Arteries", "Sahelanthropus", "Nini IV",
-    "NameLater"];
-const originalSongArtists = ["Capital Cities", "NameLater", "Sahelanthropus", "Ryoshi", "Gestalt", "NameLater", "Ryoshi",
-  "NameLater", "Nini IV", "Sahelanthropus", "Ryoshi", "NameLater", "Arteries", "Sahelanthropus", "Nini IV",
-  "NameLater"];
-const albumNames = ["In a Tidal Wave of Mystery", "NameLater", "Sahelanthropus", "Ryoshi", "Gestalt", "NameLater", "Ryoshi",
-  "NameLater", "Nini IV", "Sahelanthropus", "Ryoshi", "NameLater", "Arteries", "Sahelanthropus", "Nini IV",
-  "NameLater"];
+  "NameLater", "NameLater", "Ryoshi", "NameLater", "NameLater", "Arteries", "Ryoshi", "Ryoshi",
+  "NameLater", "Arteries", "Ryoshi", "Gestalt", "Ryoshi", "NameLater"];
+
+const songTitles = ["Safe and Sound", "Fix You", "Sunday Morning", "Linger", "Duvet", "Dango Daikazoku", "(They Long to Be) Close to You",
+    "Snake Eater", "Yellow", "Do you think I'm sexy?", "Somethin' Stupid", "Iris", "Wake Me Up", "Viva la Vida", "Alright",
+    "You Are Gonna Go Far Kid", "505", "Bakamitai", "Counting Stars", "Creep", "Feel Good Inc.", "Renai Circulation", "Stay With Me",
+  "Stereo Hearts", "Your Graduation", "Telephone Number", "California Girls", "Dancing Queen", "Lovefool"];
+
+const originalSongArtists = ["Capital Cities", "Coldplay", "Maroon5", "The Cranberries", "Bôa", "Chata", "The Carpenters",
+  "Cynthia Harrell", "Coldplay", "Rod Stewart", "Frank & Nancy Sinatra", "City of Angels: Music from the Motion Picture", "Green Day", "Coldplay", "Kendrick Lamar",
+  "The Offspring", "Arctic Monkeys", "Takaya Kuroda", "OneRepublic", "Radiohead", "Gorillaz", "Kana Hanazawa", "Miki Matsubara",
+  "Gym Class Heroes", "Modern Baseball", "Junko Ōhashi", "Katy Perry", "Abba", "The Cardigans"];
+
+const albumNames = ["In a Tidal Wave of Mystery", "X&Y", "Songs About Jane", "Everybody Else Is Doing It, So Why Can't We?", "Twilight", "Dango Daikazoku", "Close to You",
+  "Metal Gear Solid 3: Original Soundtrack", "Parachutes", "Blondes Have More Fun", "The World We Knew", "NameLater", "American Idiot", "Viva la Vida or Death and All His Friends", "To Pimp a Butterfly",
+  "Rise and Fall, Rage and Grace", "Favourite Worst Nightmare", "Baka Mitai", "Native", "Pablo Honey", "Demon Days", "Bakemonogatari Ongaku Zenshū Songs & Soundtracks", "Pocket Park",
+  "The Papercut Chronicles II", "You're Gonna Miss It All", "Tea For Tears", "Teenage Dream", "Arrival", "First Band on the Moon"];
 
 // Array to store slide data (just using placeholder images for this example)
 const slideData = Array.from({ length: totalSlides }, (_, i) => ({
@@ -35,10 +46,10 @@ const slideData = Array.from({ length: totalSlides }, (_, i) => ({
   imageOgUrl: imagenesOg[i],
   imageUrl: imagenes[i],
   youtubeUrl: videos[i],
-  originalArtistText: `> Original artist: ${artistas[i]}`,
-  songTitle: `> Song title: ${songTitles[i]}`,
-  originalSongArtist: `> Singer: ${originalSongArtists[i]}`,
-  albumName: `> Album name: ${albumNames[i]}`
+  originalArtistText: `Original artist: ${artistas[i]}`,
+  songTitle: `Song title: ${songTitles[i]}`,
+  originalSongArtist: `Singer: ${originalSongArtists[i]}`,
+  albumName: `Album name: ${albumNames[i]}`
 }));
 
 let currentIndex = 0;
