@@ -1,7 +1,7 @@
 // Number of slides (You can change this to 50 or any other number)
 const totalSlides = 30;
 
-const videos = ["https://www.youtube.com/embed/WEC52d9dpBQ?si=QR-F9syuvd7FHDQ_", "https://www.youtube.com/embed/wbTrL_ME7-k?si=idJ74ZuMMHxR0hky",
+/*const videos = ["https://www.youtube.com/embed/WEC52d9dpBQ?si=QR-F9syuvd7FHDQ_", "https://www.youtube.com/embed/wbTrL_ME7-k?si=idJ74ZuMMHxR0hky",
   "https://www.youtube.com/embed/-dsJjxjEyfo?si=CYhaAb7Nvj8sXIGb", "https://www.youtube.com/embed/kG_Dxawxmxk?si=UCjdyA-AhRoWEEa4",
   "https://www.youtube.com/embed/n1yVGahQw5M?si=3naDu9OgMc4n1uwP", "https://www.youtube.com/embed/DeYyfTIdbWs?si=y2YqwpwXnVoAz2Qy",
   "https://www.youtube.com/embed/5JqergZo1M8?si=i2WkFTla7YVEsF5V", "https://www.youtube.com/embed/JCYex-SI2E4?si=Q5vG7eM7LI3DYS1i", 
@@ -9,15 +9,32 @@ const videos = ["https://www.youtube.com/embed/WEC52d9dpBQ?si=QR-F9syuvd7FHDQ_",
   "https://www.youtube.com/embed/KDK3i6xyno0?si=qge6j4VLOt9ebYLA", "https://www.youtube.com/embed/XyODSqOUeC8?si=QuOZX_-k02ZRmR8e",
   "https://www.youtube.com/embed/CIZD8etf51U?si=cESEj0R5lIG_noiO", "https://www.youtube.com/embed/lOlRVvXMmfY?si=XinHgodQTqnP_lYS",
   "https://www.youtube.com/embed/ZW73eFqXa9Q?si=4hOsORcV0bkVaz4T", "https://www.youtube.com/embed/QUKXHH30JQs?si=ulxtRLrM9oOS0Eic"
+]*/
+
+const videos = ["https://www.youtube.com/embed/PXxeydkPS9I?si=tLlxbi1nonpMYui", "https://www.youtube.com/embed/sMj9-qR-aKI?si=xQ2Eivz8e_qV3_iR",
+  "https://www.youtube.com/embed/Pj4xUnAK8c0?si=_Im-2Py8EltUvtxR", "https://www.youtube.com/embed/1VgeRW19NnU?si=Wa2OfcyB-qbcNGsz",
+  "https://www.youtube.com/embed/GNResRKDOdQ?si=2YuwGYiV5gB4lGzw", "https://www.youtube.com/embed/8dOPVTk5eQQ?si=o9VAsb1rYCY2qup8",
+  "https://www.youtube.com/embed/Bv8L-9CdVco?si=52LmgneIpvd6NRxB", "https://www.youtube.com/embed/5Zok5Ctejak?si=eqx4RYTkv1YXFKN7", 
+  "https://www.youtube.com/embed/um7j-URVb84?si=Jme8PKaBneObTENw", "https://www.youtube.com/embed/YZ5214M7X9o?si=Ux3IEnhfrxChrOOv",
+  "https://www.youtube.com/embed/nKnVZIaH0g4?si=mkEeisBSeACu5EbP", "https://www.youtube.com/embed/PXtXNgOUhUk?si=-ExJA0tP2_k0FI_B",
+  "https://www.youtube.com/embed/d2Axn7hH7gg?si=XTq84MaJzZKuMdTP", "https://www.youtube.com/embed/VmHNEYCbhyQ?si=ZOF-T-5T7OLTiVpg",
+  "https://www.youtube.com/embed/ZW73eFqXa9Q?si=4hOsORcV0bkVaz4T", "https://www.youtube.com/embed/k6peVKoGa2A?si=SeMzxTO6r2IwSXRa",
+  "https://www.youtube.com/embed/2Vy4gSfrpmU?si=NjU0mIa8kYslJvjE", "https://www.youtube.com/embed/dKZxpJrVw2k?si=SSG45L0Ikkps5YIY",
+  "https://www.youtube.com/embed/hxPaJvm3Br0?si=KK7Osj0LijnLxASb", "https://www.youtube.com/embed/e1WmkydX7e0?si=ZnvYmKHR0AwpnjUn",
+  "https://www.youtube.com/embed/D9e_Q9J1Xpk?si=DsSVOxoPkR6GC4BT", "https://www.youtube.com/embed/YzqpHsKYdRs?si=fKrJYuVHdg8ySGoS",
+  "https://www.youtube.com/embed/oxvzB5gPaY4?si=eWeMc-qTws_T32VL", "https://www.youtube.com/embed/clK3-XhtzTE?si=vmiys1NEvdkUkOyr", 
+  "https://www.youtube.com/embed/tUEy0GYa7rQ?si=TH7j1reMvGhnEFPB",
+
 ]
+
 const imagenes = ["safe_and_sound.png", "fix_you.png", "sunday_morning.jpg", "linger.png", "duvet.png", "dango_daikazoku.png", "they_long_to_be.png",
   "snake_eater.png", "yellow.png", "do_you_think_im_sexy.jpg", "something_stupid.png", "iris.png", "wake_me_up.jpg", "viva_la_vida.jpg", "alright.png",
   "you_are_gonna_go_far_kid.png", "505.png", "bakamitai.png", "counting_stars.png", "creep.png", "feel_good.jpg", "renai_circulation.png", "stay_with_me.png",
-  "stereo_hearts.png", "your_graduation.png", "telephone_number.png", "california_girls.png", "dancing_queen.png", "lovefool.png" ];
+  "stereo_hearts.png", "your_graduation.jpg", "telephone_number.png", "california_girls.png", "dancing_queen.png", "lovefool.png" ];
 
   const imagenesOg = ["safe_and_sound_og.jpg", "fix_you_og.jpg", "sunday_morning_og.jpg", "linger_og.jpg", "duvet_og.jpg", "dango_daikazoku_og.jpg", "they_long_to_be_og.jpg",
     "snake_eater_og.jpg", "yellow_og.jpg", "do_you_think_im_sexy_og.jpg", "something_stupid_og.jpeg", "iris_og.jpg", "wake_me_up_og.jpg", "viva_la_vida_og.jpg", "alright_og.jpg",
-    "you_are_gonna_go_far_kid_og.jpg", "505.png", "bakamitai_og.png", "counting_stars_og.jpg", "creep_og.jpg", "feel_good_og.jpg", "renai_circulation_og.jpg", "stay_with_me_og.jpg",
+    "you_are_gonna_go_far_kid_og.jpg", "505_og.jpg", "bakamitai_og.png", "counting_stars_og.jpg", "creep_og.jpg", "feel_good_og.jpg", "renai_circulation_og.jpg", "stay_with_me_og.jpg",
   "stereo_hearts_og.jpg", "your_graduation_og.jpg", "telephone_number_og.jpg", "california_girls_og.png", "dancing_queen_og.jpg", "lovefool_og.jpg"];
 
 const artistas = ["NameLater", "NameLater", "Sahelanthropus", "Ryoshi", "Gestalt", "NameLater", "Ryoshi",
@@ -27,7 +44,7 @@ const artistas = ["NameLater", "NameLater", "Sahelanthropus", "Ryoshi", "Gestalt
 
 const songTitles = ["Safe and Sound", "Fix You", "Sunday Morning", "Linger", "Duvet", "Dango Daikazoku", "(They Long to Be) Close to You",
     "Snake Eater", "Yellow", "Do you think I'm sexy?", "Somethin' Stupid", "Iris", "Wake Me Up", "Viva la Vida", "Alright",
-    "You Are Gonna Go Far Kid", "505", "Bakamitai", "Counting Stars", "Creep", "Feel Good Inc.", "Renai Circulation", "Stay With Me",
+    "You Are Gonna Go Far, Kid", "505", "Bakamitai", "Counting Stars", "Creep", "Feel Good Inc.", "Renai Circulation", "Stay With Me",
   "Stereo Hearts", "Your Graduation", "Telephone Number", "California Girls", "Dancing Queen", "Lovefool"];
 
 const originalSongArtists = ["Capital Cities", "Coldplay", "Maroon5", "The Cranberries", "Bôa", "Chata", "The Carpenters",
@@ -46,9 +63,9 @@ const slideData = Array.from({ length: totalSlides }, (_, i) => ({
   imageOgUrl: imagenesOg[i],
   imageUrl: imagenes[i],
   youtubeUrl: videos[i],
-  originalArtistText: `Original artist: ${artistas[i]}`,
+  originalArtistText: `Illustrator: ${artistas[i]}`,
   songTitle: `Song title: ${songTitles[i]}`,
-  originalSongArtist: `Singer: ${originalSongArtists[i]}`,
+  originalSongArtist: `Original artist: ${originalSongArtists[i]}`,
   albumName: `Album name: ${albumNames[i]}`
 }));
 
