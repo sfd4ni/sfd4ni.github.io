@@ -67,6 +67,26 @@ li {
   border-radius: 1px;
 }
 
+.credits-art {
+  width: 55%;
+}
+.credits-art img {
+  height: 550px;
+}
+
+.text-credits {
+  margin-left: 1%;
+  padding: 1%;
+  width: 45%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 34px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  text-align: left;
+  border-radius: 5px;
+}
+
 .text-poko {
   width: 600px;
   margin-top: 1%;
@@ -116,6 +136,11 @@ li {
   text-align: left;
   border-radius: 5px;
 }
+
+.span-style {
+  color:dodgerblue;
+}
+
 
 .carousel-item .video-container iframe {
   width: 100%;
